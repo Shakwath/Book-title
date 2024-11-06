@@ -2,8 +2,8 @@ import { useLoaderData, useParams } from "react-router-dom";
 
 const BookDetail = () => {
         const {bookId} = useParams();
-       const data = useLoaderData();
-    const book = book.find (book=> book.bookId===bookId)
+    //    const data = useLoaderData();
+    // const book = book.find (book=> book.bookId===bookId)
     console.log(book)
     
     return (
